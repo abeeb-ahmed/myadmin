@@ -26,7 +26,7 @@ const Sidebar = () => {
             </Link>
           </div>
         </div>
-        <hr />
+        {/* <hr /> */}
         <div className="sidebarMiddle">
           <ul>
             <p>MAIN</p>

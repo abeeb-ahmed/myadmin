@@ -22,6 +22,7 @@
   .sidebarTop {
     padding: 5px;
     display: flex;
+    border-bottom: 0.5px solid lightgray;
   }
   .sidebarLogo {
     display: flex;
@@ -31,13 +32,9 @@
       display: flex;
       justify-content: center;
       img {
-        height: 40px;
+        height: 30px;
       }
     }
-  }
-  hr {
-    height: 0;
-    border: 0.5px solid lightgray;
   }
   .sidebarMiddle {
     padding: 10px;
