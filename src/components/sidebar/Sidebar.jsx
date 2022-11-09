@@ -26,7 +26,6 @@ const Sidebar = () => {
             </Link>
           </div>
         </div>
-        {/* <hr /> */}
         <div className="sidebarMiddle">
           <ul>
             <p>MAIN</p>
@@ -37,11 +36,11 @@ const Sidebar = () => {
             <p>LISTS</p>
             <li className="sidebarItem">
               <PersonOutlineIcon className="icon" />
-              <span>User</span>
+              <span>Users</span>
             </li>
             <li className="sidebarItem">
               <StoreIcon className="icon" />
-              <span>Product</span>
+              <span>Products</span>
             </li>
             <li className="sidebarItem">
               <CreditCardIcon className="icon" />
