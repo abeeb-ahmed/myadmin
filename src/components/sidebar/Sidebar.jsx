@@ -21,7 +21,7 @@ const Sidebar = () => {
       <div className="sidebarContainer">
         <div className="sidebarTop">
           <div className="sidebarLogo">
-            <Link>
+            <Link to="/">
               <img src={logo} alt="myadmin-logo" />
             </Link>
           </div>

@@ -1,9 +1,11 @@
 .home {
   height: 100%;
   display: flex;
+
   .homeContainer {
     flex: 4;
     height: 100%;
+
     .widgets,
     .charts {
       display: flex;
@@ -11,12 +13,14 @@
       gap: 20px;
       padding: 20px;
     }
+
     .charts {
       padding: 10px 20px;
       display: flex;
       flex-direction: row;
       flex: 1;
     }
+
     .table {
       display: flex;
       flex-direction: column;
