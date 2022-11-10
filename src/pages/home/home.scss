@@ -17,5 +17,18 @@
       flex-direction: row;
       flex: 1;
     }
+    .table {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      justify-content: center;
+      padding: 20px;
+
+      .title {
+        color: #888;
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+    }
   }
 }

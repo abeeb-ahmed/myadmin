@@ -1,6 +1,7 @@
 .sidebar {
   flex: 0.8;
-  display: fixed;
+  position: sticky;
+  top: 0;
   height: 100vh;
   border-right: 0.5px solid lightgray;
   ul {
