@@ -4,11 +4,18 @@
   .homeContainer {
     flex: 4;
     height: 100%;
-    .widgets {
+    .widgets,
+    .charts {
       display: flex;
       flex-direction: row;
       gap: 20px;
       padding: 20px;
+    }
+    .charts {
+      padding: 10px 20px;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
     }
   }
 }
