@@ -29,19 +29,25 @@ const Sidebar = () => {
         <div className="sidebarMiddle">
           <ul>
             <p>MAIN</p>
-            <li className="sidebarItem">
-              <DashboardIcon className="icon" />
-              <span>Dashboard</span>
-            </li>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <li className="sidebarItem">
+                <DashboardIcon className="icon" />
+                <span>Dashboard</span>
+              </li>
+            </Link>
             <p>LISTS</p>
-            <li className="sidebarItem">
-              <PersonOutlineIcon className="icon" />
-              <span>Users</span>
-            </li>
-            <li className="sidebarItem">
-              <StoreIcon className="icon" />
-              <span>Products</span>
-            </li>
+            <Link to="/users" style={{ textDecoration: "none" }}>
+              <li className="sidebarItem">
+                <PersonOutlineIcon className="icon" />
+                <span>Users</span>
+              </li>
+            </Link>
+            <Link to="/products" style={{ textDecoration: "none" }}>
+              <li className="sidebarItem">
+                <StoreIcon className="icon" />
+                <span>Products</span>
+              </li>
+            </Link>
             <li className="sidebarItem">
               <CreditCardIcon className="icon" />
               <span>Orders</span>

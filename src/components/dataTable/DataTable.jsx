@@ -1,5 +1,7 @@
 import React from "react";
-import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
+import { Link } from "react-router-dom";
+import { DataGrid } from "@mui/x-data-grid";
+
 import "./dataTable.scss";
 import { rows, columns } from "../../assets/tempData/datatableSource";
 
@@ -12,7 +14,9 @@ const actionColumn = [
     renderCell: () => {
       return (
         <div className="actionContainer">
-          <div className="viewButton">View</div>
+          <Link to="/users/test" style={{ textDecoration: "none" }}>
+            <div className="viewButton">View</div>
+          </Link>
           <div className="deleteButton">Delete</div>
         </div>
       );
