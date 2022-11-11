@@ -1,7 +1,7 @@
 import React from "react";
 import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
 import "./dataTable.scss";
-import { rows, columns } from "../../assets/datatableSource";
+import { rows, columns } from "../../assets/tempData/datatableSource";
 
 // Action column to view and delete items
 const actionColumn = [
