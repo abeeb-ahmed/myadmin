@@ -70,20 +70,20 @@ const TableList = () => {
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.id}>
-              <TableCell component="th" scope="row">
+              <TableCell component="th" scope="row" className="tableCell">
                 {row.id}
               </TableCell>
-              <TableCell>
+              <TableCell className="tableCell">
                 <div className="cellContainer">
                   <img src={row.img} alt="product-img" />
                   {row.product}
                 </div>
               </TableCell>
-              <TableCell>{row.customer}</TableCell>
-              <TableCell>{row.date}</TableCell>
-              <TableCell>{row.amount}</TableCell>
-              <TableCell>{row.method}</TableCell>
-              <TableCell>
+              <TableCell className="tableCell">{row.customer}</TableCell>
+              <TableCell className="tableCell">{row.date}</TableCell>
+              <TableCell className="tableCell">{row.amount}</TableCell>
+              <TableCell className="tableCell">{row.method}</TableCell>
+              <TableCell className="tableCell">
                 <span className={`status ${row.status}`}>{row.status}</span>
               </TableCell>
             </TableRow>

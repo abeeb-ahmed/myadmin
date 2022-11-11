@@ -28,6 +28,7 @@ export const DataTable = () => {
   return (
     <div className="dataTable">
       <DataGrid
+        className="dataTableContainer"
         rows={rows}
         columns={columns.concat(actionColumn)}
         pageSize={9}

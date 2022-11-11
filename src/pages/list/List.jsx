@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./list.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Nav from "../../components/nav/Nav";
@@ -12,7 +14,9 @@ const List = ({ title }) => {
         <div className="listWrapper">
           <div className="dataTableHeader">
             <h2 className="title">{title}</h2>
-            <button>Add New</button>
+            <Link to="new" style={{ textDecoration: "none" }}>
+              <button>Add New</button>
+            </Link>
           </div>
           <DataTable />
         </div>
